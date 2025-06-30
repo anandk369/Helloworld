@@ -1,0 +1,8 @@
+com.example.helloworld.app-pngs-0 /root/HelloWorldApp/app/build/generated/res/pngs/debug
+com.example.helloworld.app-resValues-1 /root/HelloWorldApp/app/build/generated/res/resValues/debug
+com.example.helloworld.app-rs-2 /root/HelloWorldApp/app/build/generated/res/rs/debug
+com.example.helloworld.app-mergeDebugResources-3 /root/HelloWorldApp/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.example.helloworld.app-mergeDebugResources-4 /root/HelloWorldApp/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.example.helloworld.app-merged_res-5 /root/HelloWorldApp/app/build/intermediates/merged_res/debug
+com.example.helloworld.app-debug-6 /root/HelloWorldApp/app/src/debug/res
+com.example.helloworld.app-main-7 /root/HelloWorldApp/app/src/main/res

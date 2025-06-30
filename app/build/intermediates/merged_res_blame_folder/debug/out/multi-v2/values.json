@@ -1,0 +1,48 @@
+{
+    "logs": [
+        {
+            "outputFile": "/root/.gradle/daemon/8.1/com.example.helloworld.app-mergeDebugResources-3:/values/values.xml",
+            "map": [
+                {
+                    "source": "/root/HelloWorldApp/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "50",
+                        "endOffsets": "62"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "50",
+                        "endOffsets": "101"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.example.helloworld.app-mergeDebugResources-3:/values/values.xml",
+            "map": [
+                {
+                    "source": "/root/HelloWorldApp/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "52",
+                        "endOffsets": "64"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "52",
+                        "endOffsets": "103"
+                    }
+                }
+            ]
+        }
+    ]
+}

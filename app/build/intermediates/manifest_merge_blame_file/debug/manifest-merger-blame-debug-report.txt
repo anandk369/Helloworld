@@ -1,0 +1,39 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.helloworld"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/root/HelloWorldApp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/root/HelloWorldApp/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/root/HelloWorldApp/app/src/main/AndroidManifest.xml:4:5-13:19
+12        android:debuggable="true"
+13        android:label="Hello World"
+13-->/root/HelloWorldApp/app/src/main/AndroidManifest.xml:5:9-36
+14        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+14-->/root/HelloWorldApp/app/src/main/AndroidManifest.xml:6:9-65
+15        <activity
+15-->/root/HelloWorldApp/app/src/main/AndroidManifest.xml:7:9-12:20
+16            android:name="com.example.helloworld.MainActivity"
+16-->/root/HelloWorldApp/app/src/main/AndroidManifest.xml:7:19-47
+17            android:exported="true" >
+17-->/root/HelloWorldApp/app/src/main/AndroidManifest.xml:7:48-71
+18            <intent-filter>
+18-->/root/HelloWorldApp/app/src/main/AndroidManifest.xml:8:13-11:29
+19                <action android:name="android.intent.action.MAIN" />
+19-->/root/HelloWorldApp/app/src/main/AndroidManifest.xml:9:17-68
+19-->/root/HelloWorldApp/app/src/main/AndroidManifest.xml:9:25-66
+20
+21                <category android:name="android.intent.category.LAUNCHER" />
+21-->/root/HelloWorldApp/app/src/main/AndroidManifest.xml:10:17-76
+21-->/root/HelloWorldApp/app/src/main/AndroidManifest.xml:10:27-74
+22            </intent-filter>
+23        </activity>
+24    </application>
+25
+26</manifest>
