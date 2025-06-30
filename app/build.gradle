@@ -1,16 +1,25 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+apply plugin: 'com.android.application'
 
-    <application
-        android:label="Hello World"
-        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        
-        <activity android:name=".MainActivity" android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+android {
+    namespace 'com.example.helloworld'
+    compileSdkVersion 33
 
-    </application>
+    defaultConfig {
+        applicationId "com.example.helloworld"
+        minSdkVersion 21
+        targetSdkVersion 33
+        versionCode 1
+        versionName "1.0"
+    }
 
-</manifest>
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+}
